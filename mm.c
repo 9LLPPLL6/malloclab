@@ -1,7 +1,7 @@
 /*
  * 基于隐式简单空闲链表实现
  * 块大小8字节对齐，有效载荷8字节对齐
- * 块有一个一个字的头部，头部记录块大小，最低位记录分配情况，空闲块有一个脚部（头部的副本），已分配块没有
+ * 块有一个一个字的头部，头部记录块大小，最低位记录分配情况，块有一个脚部（头部的副本）
  * 采取立即合并
  * 使用分割
  * 最小块大小是16字节
@@ -45,19 +45,20 @@ static void place(void *bp, size_t size);
 
 #define SIZE_T_SIZE (ALIGN(sizeof(size_t)))
 
-#define SWORD 4                                                             // 单字
-#define DWORD 8                                                             // 双字
-#define CHUNKSIZE (1 << 12)                                                 // 默认扩展堆大小
-#define PACK(size, alloc) ((size) | (alloc))                                // 赋值给头部和脚部
-#define PUT(p, val) ((*(unsigned int *)(p)) = (val))                        // 把val存在p指向的一个字中
-#define GET(p) (*(unsigned int *)p)                                         // 取p指向的一个字中的值
-#define GET_SIZE(p) ((GET(p)) & (~0x7))                                     // 取块大小
-#define GET_ALLOC(p) ((GET(p)) & (0x1))                                     // 取分配位
-#define HEAD(bp) (((char *)(bp)) - SWORD)                                   // 得到块的头部
-#define FTRP(bp) (((char *)(bp)) + (GET_SIZE(HEAD(bp))) - DWORD)            // 得到脚部
-#define NEXT_BLOCK(bp) (((char *)(bp)) + (GET_SIZE(HEAD(bp))))              // 下一个块指针
-#define PRE_BLOCK(bp) (((char *)(bp)) - (GET_SIZE(((char *)(bp)) - DWORD))) // 上一个块指针
-#define MAX(x, y) ((x) > (y) ? (x) : (y));                                  // 返回较大值
+#define SWORD 4                                                               // 单字
+#define DWORD 8                                                               // 双字
+#define CHUNKSIZE (1 << 12)                                                   // 默认扩展堆大小
+#define PACK(size, alloc) ((size) | (alloc))                                  // 赋值给头部和脚部
+#define PUT(p, val) ((*(unsigned int *)(p)) = (val))                          // 把val存在p指向的一个字中
+#define GET(p) (*((unsigned int *)(p)))                                       // 取p指向的一个字中的值
+#define GET_SIZE(p) ((GET(p)) & (~0x7))                                       // 取块大小
+#define GET_ALLOC(p) ((GET(p)) & (0x1))                                       // 取分配位
+#define HEAD(bp) (((char *)(bp)) - (SWORD))                                   // 得到块的头部
+#define FTRP(bp) (((char *)(bp)) + (GET_SIZE(HEAD(bp))) - (DWORD))            // 得到脚部
+#define NEXT_BLOCK(bp) (((char *)(bp)) + (GET_SIZE(HEAD(bp))))                // 下一个块指针
+#define PRE_BLOCK(bp) (((char *)(bp)) - (GET_SIZE(((char *)(bp)) - (DWORD)))) // 上一个块指针
+#define MAX(x, y) ((x) > (y) ? (x) : (y))                                     // 返回较大值
+#define MIN(x, y) ((x) < (y) ? (x) : (y))                                     // 返回较小值
 
 char *heap_list; // 指向序言块
 /*
@@ -73,7 +74,6 @@ int mm_init(void)
     PUT(heap_list + SWORD * 2, PACK(DWORD, 1));
     PUT(heap_list + SWORD * 3, PACK(0, 1));
     heap_list += DWORD;
-    printf("init");
     if (extend_heap(CHUNKSIZE / SWORD) == NULL)
         return -1;
 
@@ -94,7 +94,7 @@ void *mm_malloc(size_t size)
         block_size = 16;
     else
         block_size = ((size + DWORD + (DWORD - 1)) / DWORD) * DWORD;
-    bp = find_fit(size);
+    bp = find_fit(block_size);
     if (bp)
         place(bp, block_size);
     else
@@ -103,7 +103,6 @@ void *mm_malloc(size_t size)
         bp = extend_heap(extend_size / SWORD);
         place(bp, block_size);
     }
-    printf("malloc\n");
     return bp;
 }
 
@@ -115,7 +114,6 @@ void mm_free(void *ptr)
     size_t size = GET_SIZE(HEAD(ptr));
     PUT(FTRP(ptr), PACK(size, 0));
     PUT(HEAD(ptr), PACK(size, 0));
-    printf("free\n");
     coalesce(ptr);
 }
 
@@ -124,20 +122,28 @@ void mm_free(void *ptr)
  */
 void *mm_realloc(void *ptr, size_t size)
 {
-    void *oldptr = ptr;
-    void *newptr;
-    size_t copySize;
-
-    newptr = mm_malloc(size);
-    if (newptr == NULL)
+    void *new_ptr;
+    if (ptr == NULL)
+        return mm_malloc(size);
+    if (size == 0)
+    {
+        mm_free(ptr);
         return NULL;
-    copySize = *(size_t *)((char *)oldptr - SIZE_T_SIZE);
-    if (size < copySize)
-        copySize = size;
-    memcpy(newptr, oldptr, copySize);
-    mm_free(oldptr);
-    printf("realloc");
-    return newptr;
+    }
+    size_t old_size = GET_SIZE((char *)(ptr)-4);
+    new_ptr = mm_malloc(size);
+    size_t new_size = GET_SIZE((char *)(new_ptr)-4);
+    int length = (MIN(old_size, new_size) - 8) / 8;
+    long long *ulptr = (long long *)ptr;
+    long long*ulnew_ptr = (long long *)new_ptr;
+    for (int i = 0; i < length; i++)
+    {
+        *ulnew_ptr = *ulptr;
+        ulnew_ptr++;
+        ulptr++;
+    }
+    mm_free(ptr);
+    return new_ptr;
 }
 
 /*
@@ -147,13 +153,12 @@ static void *extend_heap(size_t words)
 {
     size_t size;
     char *bp;
-    size = (words % 2) == 0 ? (words * SWORD) : (words + 1) * SWORD;
+    size = ((words % 2) == 0 ? (words * SWORD) : (words + 1) * SWORD);
     if ((long)(bp = mem_sbrk(size)) == -1)
         return NULL;
     PUT((char *)(bp)-4, PACK(size, 0));
     PUT((char *)(bp) + size - DWORD, PACK(size, 0));
     PUT((char *)(bp) + size - SWORD, PACK(0, 1));
-    printf("extend");
     return coalesce(bp);
 }
 /*
@@ -166,7 +171,6 @@ static void *coalesce(void *bp)
     unsigned int prev_alloc = GET_ALLOC(HEAD(PRE_BLOCK(bp)));
     size_t next_size = GET_SIZE(HEAD(NEXT_BLOCK(bp)));
     size_t prev_size = GET_SIZE(HEAD(PRE_BLOCK(bp)));
-    printf("C0");
     if (next_alloc && prev_alloc)
         return bp;
     else if (next_alloc && !prev_alloc)
@@ -174,7 +178,6 @@ static void *coalesce(void *bp)
         size = size + prev_size;
         PUT(HEAD(PRE_BLOCK(bp)), PACK(size, 0));
         PUT(FTRP(bp), PACK(size, 0));
-        printf("C2");
         return PRE_BLOCK(bp);
     }
     else if (prev_alloc && !next_alloc)
@@ -182,7 +185,6 @@ static void *coalesce(void *bp)
         size += next_size;
         PUT(HEAD(bp), PACK(size, 0));
         PUT(((char *)(bp)) + size - DWORD, PACK(size, 0));
-        printf("C3");
         return bp;
     }
     else
@@ -190,7 +192,6 @@ static void *coalesce(void *bp)
         size = size + prev_size + next_size;
         PUT(HEAD(PRE_BLOCK(bp)), PACK(size, 0));
         PUT(FTRP(NEXT_BLOCK(bp)), PACK(size, 0));
-        printf("C4");
         return (((char *)(bp)) - GET_SIZE(((char *)(bp)) - DWORD));
     }
 }
