@@ -4,7 +4,7 @@
  * 块有一个一个字的头部，头部记录块大小，最低位记录分配情况，第二低位记录前一个块的空闲情况
  * 空闲块有一个脚部（头部的副本），已分配块没有
  * 采取立即合并
- * 首次适配
+ * 下一次适配
  * 使用分割
  * 最小块大小是8字节
  * 堆起始有一个4字节对齐填充块，有一个8字节只有头部和脚部的序言块（8/1），堆结尾有一个结尾块，只有头部，（0/1）
@@ -65,6 +65,7 @@ static void printf_list(char *start_block);
 #define MIN(x, y) ((x) < (y) ? (x) : (y))                                     // 返回较小值
 
 char *heap_list; // 指向序言块
+char *fit_p;     // 指向上一次分配的块的下一块
 /*
  * mm_init - initialize the malloc package.
  * 正常返回0，有问题返回-1
@@ -78,9 +79,9 @@ int mm_init(void)
     PUT(heap_list + SWORD * 2, PACK(DWORD, 1, 1));
     PUT(heap_list + SWORD * 3, PACK(0, 1, 1));
     heap_list += DWORD;
-    if (extend_heap(CHUNKSIZE / SWORD) == NULL)
+    if (extend_heap(2*DWORD / SWORD) == NULL)
         return -1;
-
+    fit_p = heap_list + DWORD;
     return 0;
 }
 
@@ -163,6 +164,8 @@ void *mm_realloc(void *ptr, size_t size)
         {
             if ((old_size + next_bsize - new_size) < 8) // 不分割
             {
+                if (fit_p == (char *)(NEXT_BLOCK(ptr)))
+                    fit_p = (char *)(NEXT_BLOCK(NEXT_BLOCK(ptr)));
                 char *p = ((char *)(ptr) + (old_size + next_bsize) - 4);
                 size_t size1 = GET_SIZE(p);
                 unsigned int alloc1 = GET_ALLOC(p);
@@ -175,6 +178,8 @@ void *mm_realloc(void *ptr, size_t size)
                 PUT((char *)(ptr)-4, PACK(new_size, 1, old_prealloc));
                 PUT((char *)(ptr) + new_size - 4, PACK(now_size, 0, 1));
                 PUT((char *)(ptr) + old_size + next_bsize - 8, PACK(now_size, 0, 1));
+                if ((fit_p == (char *)(NEXT_BLOCK(ptr))))
+                    fit_p = (char *)(ptr) + new_size;
                 coalesce((char *)(ptr) + new_size);
             }
             return ptr;
@@ -204,11 +209,10 @@ void *mm_realloc(void *ptr, size_t size)
             PUT((char *)(ptr) + new_size - 4, PACK(old_size - new_size, 0, 1));
             PUT((char *)(ptr) + old_size - 8, PACK(old_size - new_size, 0, 1));
             size_t size2 = GET_SIZE((char *)(ptr) + old_size - 4);
-            unsigned int alloc2 = GET_ALLOC((char *)(ptr) + old_size - 4);
-            PUT((char *)(ptr) + old_size - 4, PACK(size2, alloc2, 0));
-            if (alloc2 == 0)
+            PUT((char *)(ptr) + old_size - 4, PACK(size2, n_alloc, 0));
+            if (n_alloc == 0)
             {
-                PUT((char *)(ptr) + old_size + size2 - 8, PACK(size2, alloc2, 0));
+                PUT((char *)(ptr) + old_size + size2 - 8, PACK(size2, n_alloc, 0));
                 coalesce((char *)(ptr) + new_size);
             }
         }
@@ -226,10 +230,10 @@ static void *extend_heap(size_t words)
     size = ((words % 2) == 0 ? (words * SWORD) : (words + 1) * SWORD);
     if ((long)(bp = mem_sbrk(size)) == -1)
     {
-        //printf_list((char *)(heap_list) + 8);
+        // printf_list((char *)(heap_list) + 8);
         return NULL;
     }
-   // printf_list((char *)(heap_list) + 8);
+    // printf_list((char *)(heap_list) + 8);
     unsigned int prealloc = GET_PREALLOC(((char *)(bp)) - 4);
     PUT((char *)(bp)-4, PACK(size, 0, prealloc));
     PUT((char *)(bp) + size - DWORD, PACK(size, 0, prealloc));
@@ -255,10 +259,14 @@ static void *coalesce(void *bp)
         unsigned int pal = GET_PREALLOC((char *)(PRE_BLOCK(bp)) - 4);
         PUT(HEAD(PRE_BLOCK(bp)), PACK(size, 0, pal));
         PUT(FTRP(bp), PACK(size, 0, pal));
+        if (fit_p == (char *)(bp))
+            fit_p = (char *)PRE_BLOCK(bp);
         return PRE_BLOCK(bp);
     }
     else if (prev_alloc && !next_alloc)
     {
+        if (fit_p == (char *)(NEXT_BLOCK(bp)))
+            fit_p = (char *)bp;
         size += next_size;
         unsigned int pal = GET_PREALLOC((char *)(bp)-4);
         PUT(HEAD(bp), PACK(size, 0, pal));
@@ -267,6 +275,8 @@ static void *coalesce(void *bp)
     }
     else
     {
+        if ((fit_p == (char *)(NEXT_BLOCK(bp))) || (fit_p == (char *)(bp)))
+            fit_p = (char *)PRE_BLOCK(bp);
         prev_size = GET_SIZE(HEAD(PRE_BLOCK(bp)));
         size = size + prev_size + next_size;
         unsigned int pal = GET_PREALLOC((char *)(PRE_BLOCK(bp)) - 4);
@@ -282,19 +292,36 @@ static void *find_fit(size_t size)
 {
     size_t block_size;
     unsigned int alloc;
-    char *start = heap_list + DWORD;
+    char *start = fit_p;
     block_size = GET_SIZE(HEAD(start));
     alloc = GET_ALLOC(HEAD(start));
-    while (block_size != 0)
+    while (1)
+    {
         if (alloc == 1 || block_size < size)
         {
             start = start + block_size;
             block_size = GET_SIZE(HEAD(start));
             alloc = GET_ALLOC(HEAD(start));
+            if (block_size == 0)
+            {
+                start = heap_list + DWORD;
+                if (start == fit_p)
+                    return NULL;
+                block_size = GET_SIZE(HEAD(start));
+                alloc = GET_ALLOC(HEAD(start));
+                continue;
+            }
+            if (start == fit_p)
+                return NULL;
         }
         else
+        {
+            fit_p = NEXT_BLOCK(start);
+            if (GET_SIZE((char *)(fit_p)-4) == 0)
+                fit_p = heap_list + DWORD;
             return start;
-    return NULL;
+        }
+    }
 }
 /*
  * 分割块
@@ -338,8 +365,8 @@ static void printf_list(char *start_block)
         start_block = NEXT_BLOCK(start_block);
         size = GET_SIZE(HEAD(start_block));
     }
-    alloc = GET_ALLOC((char*)(start_block)-4);
-    pre_alloc = GET_PREALLOC((char*)(start_block)-4);
+    alloc = GET_ALLOC((char *)(start_block)-4);
+    pre_alloc = GET_PREALLOC((char *)(start_block)-4);
     printf("size=%u  alloc= %u  pre_alloc=%u\n", size, alloc, pre_alloc);
     printf("-------------------------------\n");
 }
