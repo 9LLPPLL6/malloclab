@@ -1,0 +1,1576 @@
+Team Name:glimmer
+Member 1 :lee:LLP_PLL@look.out
+Member 2 :lpl:239148349@qq.com
+size=0  alloc= 1  pre_alloc=1
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=1424  alloc= 0  pre_alloc=1
+size=1416  alloc= 1  pre_alloc=0
+size=1120  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=2960  alloc= 0  pre_alloc=1
+size=2952  alloc= 1  pre_alloc=0
+size=2144  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=3976  alloc= 0  pre_alloc=1
+size=4104  alloc= 1  pre_alloc=0
+size=3936  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=5512  alloc= 0  pre_alloc=1
+size=5640  alloc= 1  pre_alloc=0
+size=5096  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=7568  alloc= 0  pre_alloc=1
+size=7560  alloc= 1  pre_alloc=0
+size=7024  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=10120  alloc= 0  pre_alloc=1
+size=10248  alloc= 1  pre_alloc=0
+size=9336  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=13712  alloc= 0  pre_alloc=1
+size=13704  alloc= 1  pre_alloc=0
+size=12800  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=18320  alloc= 0  pre_alloc=1
+size=18312  alloc= 1  pre_alloc=0
+size=17416  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=24464  alloc= 0  pre_alloc=1
+size=24456  alloc= 1  pre_alloc=0
+size=23568  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=32392  alloc= 0  pre_alloc=1
+size=32520  alloc= 1  pre_alloc=0
+size=32024  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=43144  alloc= 0  pre_alloc=1
+size=43272  alloc= 1  pre_alloc=0
+size=43168  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=57736  alloc= 0  pre_alloc=1
+size=57864  alloc= 1  pre_alloc=0
+size=57384  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=76936  alloc= 0  pre_alloc=1
+size=77064  alloc= 1  pre_alloc=0
+size=76976  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=102800  alloc= 0  pre_alloc=1
+size=102792  alloc= 1  pre_alloc=0
+size=102712  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=137360  alloc= 0  pre_alloc=1
+size=137352  alloc= 1  pre_alloc=0
+size=136512  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=182920  alloc= 0  pre_alloc=1
+size=183048  alloc= 1  pre_alloc=0
+size=182600  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=244112  alloc= 0  pre_alloc=1
+size=244104  alloc= 1  pre_alloc=0
+size=243664  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=325520  alloc= 0  pre_alloc=1
+size=325512  alloc= 1  pre_alloc=0
+size=325080  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=434056  alloc= 0  pre_alloc=1
+size=434184  alloc= 1  pre_alloc=0
+size=433376  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=578960  alloc= 0  pre_alloc=1
+size=578952  alloc= 1  pre_alloc=0
+size=578152  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=0  alloc= 1  pre_alloc=1
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=1424  alloc= 0  pre_alloc=1
+size=1416  alloc= 1  pre_alloc=0
+size=1120  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=2960  alloc= 0  pre_alloc=1
+size=2952  alloc= 1  pre_alloc=0
+size=2144  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=3976  alloc= 0  pre_alloc=1
+size=4104  alloc= 1  pre_alloc=0
+size=3936  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=5512  alloc= 0  pre_alloc=1
+size=5640  alloc= 1  pre_alloc=0
+size=5096  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=7568  alloc= 0  pre_alloc=1
+size=7560  alloc= 1  pre_alloc=0
+size=7024  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=10120  alloc= 0  pre_alloc=1
+size=10248  alloc= 1  pre_alloc=0
+size=9336  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=13712  alloc= 0  pre_alloc=1
+size=13704  alloc= 1  pre_alloc=0
+size=12800  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=18320  alloc= 0  pre_alloc=1
+size=18312  alloc= 1  pre_alloc=0
+size=17416  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=24464  alloc= 0  pre_alloc=1
+size=24456  alloc= 1  pre_alloc=0
+size=23568  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=32392  alloc= 0  pre_alloc=1
+size=32520  alloc= 1  pre_alloc=0
+size=32024  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=43144  alloc= 0  pre_alloc=1
+size=43272  alloc= 1  pre_alloc=0
+size=43168  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=57736  alloc= 0  pre_alloc=1
+size=57864  alloc= 1  pre_alloc=0
+size=57384  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=76936  alloc= 0  pre_alloc=1
+size=77064  alloc= 1  pre_alloc=0
+size=76976  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=102800  alloc= 0  pre_alloc=1
+size=102792  alloc= 1  pre_alloc=0
+size=102712  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=137360  alloc= 0  pre_alloc=1
+size=137352  alloc= 1  pre_alloc=0
+size=136512  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=182920  alloc= 0  pre_alloc=1
+size=183048  alloc= 1  pre_alloc=0
+size=182600  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=244112  alloc= 0  pre_alloc=1
+size=244104  alloc= 1  pre_alloc=0
+size=243664  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=325520  alloc= 0  pre_alloc=1
+size=325512  alloc= 1  pre_alloc=0
+size=325080  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=434056  alloc= 0  pre_alloc=1
+size=434184  alloc= 1  pre_alloc=0
+size=433376  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=578960  alloc= 0  pre_alloc=1
+size=578952  alloc= 1  pre_alloc=0
+size=578152  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=0  alloc= 1  pre_alloc=1
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=1424  alloc= 0  pre_alloc=1
+size=1416  alloc= 1  pre_alloc=0
+size=1120  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=2960  alloc= 0  pre_alloc=1
+size=2952  alloc= 1  pre_alloc=0
+size=2144  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=3976  alloc= 0  pre_alloc=1
+size=4104  alloc= 1  pre_alloc=0
+size=3936  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=5512  alloc= 0  pre_alloc=1
+size=5640  alloc= 1  pre_alloc=0
+size=5096  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=7568  alloc= 0  pre_alloc=1
+size=7560  alloc= 1  pre_alloc=0
+size=7024  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=10120  alloc= 0  pre_alloc=1
+size=10248  alloc= 1  pre_alloc=0
+size=9336  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=13712  alloc= 0  pre_alloc=1
+size=13704  alloc= 1  pre_alloc=0
+size=12800  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=18320  alloc= 0  pre_alloc=1
+size=18312  alloc= 1  pre_alloc=0
+size=17416  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=24464  alloc= 0  pre_alloc=1
+size=24456  alloc= 1  pre_alloc=0
+size=23568  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=32392  alloc= 0  pre_alloc=1
+size=32520  alloc= 1  pre_alloc=0
+size=32024  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=43144  alloc= 0  pre_alloc=1
+size=43272  alloc= 1  pre_alloc=0
+size=43168  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=57736  alloc= 0  pre_alloc=1
+size=57864  alloc= 1  pre_alloc=0
+size=57384  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=76936  alloc= 0  pre_alloc=1
+size=77064  alloc= 1  pre_alloc=0
+size=76976  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=102800  alloc= 0  pre_alloc=1
+size=102792  alloc= 1  pre_alloc=0
+size=102712  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=137360  alloc= 0  pre_alloc=1
+size=137352  alloc= 1  pre_alloc=0
+size=136512  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=182920  alloc= 0  pre_alloc=1
+size=183048  alloc= 1  pre_alloc=0
+size=182600  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=244112  alloc= 0  pre_alloc=1
+size=244104  alloc= 1  pre_alloc=0
+size=243664  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=325520  alloc= 0  pre_alloc=1
+size=325512  alloc= 1  pre_alloc=0
+size=325080  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=434056  alloc= 0  pre_alloc=1
+size=434184  alloc= 1  pre_alloc=0
+size=433376  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=578960  alloc= 0  pre_alloc=1
+size=578952  alloc= 1  pre_alloc=0
+size=578152  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=0  alloc= 1  pre_alloc=1
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=1424  alloc= 0  pre_alloc=1
+size=1416  alloc= 1  pre_alloc=0
+size=1120  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=2960  alloc= 0  pre_alloc=1
+size=2952  alloc= 1  pre_alloc=0
+size=2144  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=3976  alloc= 0  pre_alloc=1
+size=4104  alloc= 1  pre_alloc=0
+size=3936  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=5512  alloc= 0  pre_alloc=1
+size=5640  alloc= 1  pre_alloc=0
+size=5096  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=7568  alloc= 0  pre_alloc=1
+size=7560  alloc= 1  pre_alloc=0
+size=7024  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=10120  alloc= 0  pre_alloc=1
+size=10248  alloc= 1  pre_alloc=0
+size=9336  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=13712  alloc= 0  pre_alloc=1
+size=13704  alloc= 1  pre_alloc=0
+size=12800  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=18320  alloc= 0  pre_alloc=1
+size=18312  alloc= 1  pre_alloc=0
+size=17416  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=24464  alloc= 0  pre_alloc=1
+size=24456  alloc= 1  pre_alloc=0
+size=23568  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=32392  alloc= 0  pre_alloc=1
+size=32520  alloc= 1  pre_alloc=0
+size=32024  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=43144  alloc= 0  pre_alloc=1
+size=43272  alloc= 1  pre_alloc=0
+size=43168  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=57736  alloc= 0  pre_alloc=1
+size=57864  alloc= 1  pre_alloc=0
+size=57384  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=76936  alloc= 0  pre_alloc=1
+size=77064  alloc= 1  pre_alloc=0
+size=76976  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=102800  alloc= 0  pre_alloc=1
+size=102792  alloc= 1  pre_alloc=0
+size=102712  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=137360  alloc= 0  pre_alloc=1
+size=137352  alloc= 1  pre_alloc=0
+size=136512  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=182920  alloc= 0  pre_alloc=1
+size=183048  alloc= 1  pre_alloc=0
+size=182600  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=244112  alloc= 0  pre_alloc=1
+size=244104  alloc= 1  pre_alloc=0
+size=243664  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=325520  alloc= 0  pre_alloc=1
+size=325512  alloc= 1  pre_alloc=0
+size=325080  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=434056  alloc= 0  pre_alloc=1
+size=434184  alloc= 1  pre_alloc=0
+size=433376  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=578960  alloc= 0  pre_alloc=1
+size=578952  alloc= 1  pre_alloc=0
+size=578152  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=0  alloc= 1  pre_alloc=1
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=1424  alloc= 0  pre_alloc=1
+size=1416  alloc= 1  pre_alloc=0
+size=1120  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=2960  alloc= 0  pre_alloc=1
+size=2952  alloc= 1  pre_alloc=0
+size=2144  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=3976  alloc= 0  pre_alloc=1
+size=4104  alloc= 1  pre_alloc=0
+size=3936  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=5512  alloc= 0  pre_alloc=1
+size=5640  alloc= 1  pre_alloc=0
+size=5096  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=7568  alloc= 0  pre_alloc=1
+size=7560  alloc= 1  pre_alloc=0
+size=7024  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=10120  alloc= 0  pre_alloc=1
+size=10248  alloc= 1  pre_alloc=0
+size=9336  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=13712  alloc= 0  pre_alloc=1
+size=13704  alloc= 1  pre_alloc=0
+size=12800  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=18320  alloc= 0  pre_alloc=1
+size=18312  alloc= 1  pre_alloc=0
+size=17416  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=24464  alloc= 0  pre_alloc=1
+size=24456  alloc= 1  pre_alloc=0
+size=23568  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=32392  alloc= 0  pre_alloc=1
+size=32520  alloc= 1  pre_alloc=0
+size=32024  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=43144  alloc= 0  pre_alloc=1
+size=43272  alloc= 1  pre_alloc=0
+size=43168  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=57736  alloc= 0  pre_alloc=1
+size=57864  alloc= 1  pre_alloc=0
+size=57384  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=76936  alloc= 0  pre_alloc=1
+size=77064  alloc= 1  pre_alloc=0
+size=76976  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=102800  alloc= 0  pre_alloc=1
+size=102792  alloc= 1  pre_alloc=0
+size=102712  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=137360  alloc= 0  pre_alloc=1
+size=137352  alloc= 1  pre_alloc=0
+size=136512  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=182920  alloc= 0  pre_alloc=1
+size=183048  alloc= 1  pre_alloc=0
+size=182600  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=244112  alloc= 0  pre_alloc=1
+size=244104  alloc= 1  pre_alloc=0
+size=243664  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=325520  alloc= 0  pre_alloc=1
+size=325512  alloc= 1  pre_alloc=0
+size=325080  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=434056  alloc= 0  pre_alloc=1
+size=434184  alloc= 1  pre_alloc=0
+size=433376  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=578960  alloc= 0  pre_alloc=1
+size=578952  alloc= 1  pre_alloc=0
+size=578152  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=0  alloc= 1  pre_alloc=1
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=1424  alloc= 0  pre_alloc=1
+size=1416  alloc= 1  pre_alloc=0
+size=1120  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=2960  alloc= 0  pre_alloc=1
+size=2952  alloc= 1  pre_alloc=0
+size=2144  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=3976  alloc= 0  pre_alloc=1
+size=4104  alloc= 1  pre_alloc=0
+size=3936  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=5512  alloc= 0  pre_alloc=1
+size=5640  alloc= 1  pre_alloc=0
+size=5096  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=7568  alloc= 0  pre_alloc=1
+size=7560  alloc= 1  pre_alloc=0
+size=7024  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=10120  alloc= 0  pre_alloc=1
+size=10248  alloc= 1  pre_alloc=0
+size=9336  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=13712  alloc= 0  pre_alloc=1
+size=13704  alloc= 1  pre_alloc=0
+size=12800  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=18320  alloc= 0  pre_alloc=1
+size=18312  alloc= 1  pre_alloc=0
+size=17416  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=24464  alloc= 0  pre_alloc=1
+size=24456  alloc= 1  pre_alloc=0
+size=23568  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=32392  alloc= 0  pre_alloc=1
+size=32520  alloc= 1  pre_alloc=0
+size=32024  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=43144  alloc= 0  pre_alloc=1
+size=43272  alloc= 1  pre_alloc=0
+size=43168  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=57736  alloc= 0  pre_alloc=1
+size=57864  alloc= 1  pre_alloc=0
+size=57384  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=76936  alloc= 0  pre_alloc=1
+size=77064  alloc= 1  pre_alloc=0
+size=76976  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=102800  alloc= 0  pre_alloc=1
+size=102792  alloc= 1  pre_alloc=0
+size=102712  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=137360  alloc= 0  pre_alloc=1
+size=137352  alloc= 1  pre_alloc=0
+size=136512  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=182920  alloc= 0  pre_alloc=1
+size=183048  alloc= 1  pre_alloc=0
+size=182600  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=244112  alloc= 0  pre_alloc=1
+size=244104  alloc= 1  pre_alloc=0
+size=243664  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=325520  alloc= 0  pre_alloc=1
+size=325512  alloc= 1  pre_alloc=0
+size=325080  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=434056  alloc= 0  pre_alloc=1
+size=434184  alloc= 1  pre_alloc=0
+size=433376  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=578960  alloc= 0  pre_alloc=1
+size=578952  alloc= 1  pre_alloc=0
+size=578152  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=0  alloc= 1  pre_alloc=1
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=1424  alloc= 0  pre_alloc=1
+size=1416  alloc= 1  pre_alloc=0
+size=1120  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=2960  alloc= 0  pre_alloc=1
+size=2952  alloc= 1  pre_alloc=0
+size=2144  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=3976  alloc= 0  pre_alloc=1
+size=4104  alloc= 1  pre_alloc=0
+size=3936  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=5512  alloc= 0  pre_alloc=1
+size=5640  alloc= 1  pre_alloc=0
+size=5096  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=7568  alloc= 0  pre_alloc=1
+size=7560  alloc= 1  pre_alloc=0
+size=7024  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=10120  alloc= 0  pre_alloc=1
+size=10248  alloc= 1  pre_alloc=0
+size=9336  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=13712  alloc= 0  pre_alloc=1
+size=13704  alloc= 1  pre_alloc=0
+size=12800  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=18320  alloc= 0  pre_alloc=1
+size=18312  alloc= 1  pre_alloc=0
+size=17416  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=24464  alloc= 0  pre_alloc=1
+size=24456  alloc= 1  pre_alloc=0
+size=23568  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=32392  alloc= 0  pre_alloc=1
+size=32520  alloc= 1  pre_alloc=0
+size=32024  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=43144  alloc= 0  pre_alloc=1
+size=43272  alloc= 1  pre_alloc=0
+size=43168  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=57736  alloc= 0  pre_alloc=1
+size=57864  alloc= 1  pre_alloc=0
+size=57384  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=76936  alloc= 0  pre_alloc=1
+size=77064  alloc= 1  pre_alloc=0
+size=76976  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=102800  alloc= 0  pre_alloc=1
+size=102792  alloc= 1  pre_alloc=0
+size=102712  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=137360  alloc= 0  pre_alloc=1
+size=137352  alloc= 1  pre_alloc=0
+size=136512  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=182920  alloc= 0  pre_alloc=1
+size=183048  alloc= 1  pre_alloc=0
+size=182600  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=244112  alloc= 0  pre_alloc=1
+size=244104  alloc= 1  pre_alloc=0
+size=243664  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=325520  alloc= 0  pre_alloc=1
+size=325512  alloc= 1  pre_alloc=0
+size=325080  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=434056  alloc= 0  pre_alloc=1
+size=434184  alloc= 1  pre_alloc=0
+size=433376  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=578960  alloc= 0  pre_alloc=1
+size=578952  alloc= 1  pre_alloc=0
+size=578152  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=0  alloc= 1  pre_alloc=1
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=1424  alloc= 0  pre_alloc=1
+size=1416  alloc= 1  pre_alloc=0
+size=1120  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=2960  alloc= 0  pre_alloc=1
+size=2952  alloc= 1  pre_alloc=0
+size=2144  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=3976  alloc= 0  pre_alloc=1
+size=4104  alloc= 1  pre_alloc=0
+size=3936  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=5512  alloc= 0  pre_alloc=1
+size=5640  alloc= 1  pre_alloc=0
+size=5096  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=7568  alloc= 0  pre_alloc=1
+size=7560  alloc= 1  pre_alloc=0
+size=7024  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=10120  alloc= 0  pre_alloc=1
+size=10248  alloc= 1  pre_alloc=0
+size=9336  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=13712  alloc= 0  pre_alloc=1
+size=13704  alloc= 1  pre_alloc=0
+size=12800  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=18320  alloc= 0  pre_alloc=1
+size=18312  alloc= 1  pre_alloc=0
+size=17416  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=24464  alloc= 0  pre_alloc=1
+size=24456  alloc= 1  pre_alloc=0
+size=23568  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=32392  alloc= 0  pre_alloc=1
+size=32520  alloc= 1  pre_alloc=0
+size=32024  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=43144  alloc= 0  pre_alloc=1
+size=43272  alloc= 1  pre_alloc=0
+size=43168  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=57736  alloc= 0  pre_alloc=1
+size=57864  alloc= 1  pre_alloc=0
+size=57384  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=76936  alloc= 0  pre_alloc=1
+size=77064  alloc= 1  pre_alloc=0
+size=76976  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=102800  alloc= 0  pre_alloc=1
+size=102792  alloc= 1  pre_alloc=0
+size=102712  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=137360  alloc= 0  pre_alloc=1
+size=137352  alloc= 1  pre_alloc=0
+size=136512  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=182920  alloc= 0  pre_alloc=1
+size=183048  alloc= 1  pre_alloc=0
+size=182600  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=244112  alloc= 0  pre_alloc=1
+size=244104  alloc= 1  pre_alloc=0
+size=243664  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=325520  alloc= 0  pre_alloc=1
+size=325512  alloc= 1  pre_alloc=0
+size=325080  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=434056  alloc= 0  pre_alloc=1
+size=434184  alloc= 1  pre_alloc=0
+size=433376  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=578960  alloc= 0  pre_alloc=1
+size=578952  alloc= 1  pre_alloc=0
+size=578152  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=0  alloc= 1  pre_alloc=1
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=1424  alloc= 0  pre_alloc=1
+size=1416  alloc= 1  pre_alloc=0
+size=1120  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=2960  alloc= 0  pre_alloc=1
+size=2952  alloc= 1  pre_alloc=0
+size=2144  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=3976  alloc= 0  pre_alloc=1
+size=4104  alloc= 1  pre_alloc=0
+size=3936  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=5512  alloc= 0  pre_alloc=1
+size=5640  alloc= 1  pre_alloc=0
+size=5096  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=7568  alloc= 0  pre_alloc=1
+size=7560  alloc= 1  pre_alloc=0
+size=7024  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=10120  alloc= 0  pre_alloc=1
+size=10248  alloc= 1  pre_alloc=0
+size=9336  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=13712  alloc= 0  pre_alloc=1
+size=13704  alloc= 1  pre_alloc=0
+size=12800  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=18320  alloc= 0  pre_alloc=1
+size=18312  alloc= 1  pre_alloc=0
+size=17416  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=24464  alloc= 0  pre_alloc=1
+size=24456  alloc= 1  pre_alloc=0
+size=23568  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=32392  alloc= 0  pre_alloc=1
+size=32520  alloc= 1  pre_alloc=0
+size=32024  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=43144  alloc= 0  pre_alloc=1
+size=43272  alloc= 1  pre_alloc=0
+size=43168  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=57736  alloc= 0  pre_alloc=1
+size=57864  alloc= 1  pre_alloc=0
+size=57384  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=76936  alloc= 0  pre_alloc=1
+size=77064  alloc= 1  pre_alloc=0
+size=76976  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=102800  alloc= 0  pre_alloc=1
+size=102792  alloc= 1  pre_alloc=0
+size=102712  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=137360  alloc= 0  pre_alloc=1
+size=137352  alloc= 1  pre_alloc=0
+size=136512  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=182920  alloc= 0  pre_alloc=1
+size=183048  alloc= 1  pre_alloc=0
+size=182600  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=244112  alloc= 0  pre_alloc=1
+size=244104  alloc= 1  pre_alloc=0
+size=243664  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=325520  alloc= 0  pre_alloc=1
+size=325512  alloc= 1  pre_alloc=0
+size=325080  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=434056  alloc= 0  pre_alloc=1
+size=434184  alloc= 1  pre_alloc=0
+size=433376  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=578960  alloc= 0  pre_alloc=1
+size=578952  alloc= 1  pre_alloc=0
+size=578152  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=0  alloc= 1  pre_alloc=1
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=1424  alloc= 0  pre_alloc=1
+size=1416  alloc= 1  pre_alloc=0
+size=1120  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=2960  alloc= 0  pre_alloc=1
+size=2952  alloc= 1  pre_alloc=0
+size=2144  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=3976  alloc= 0  pre_alloc=1
+size=4104  alloc= 1  pre_alloc=0
+size=3936  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=5512  alloc= 0  pre_alloc=1
+size=5640  alloc= 1  pre_alloc=0
+size=5096  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=7568  alloc= 0  pre_alloc=1
+size=7560  alloc= 1  pre_alloc=0
+size=7024  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=10120  alloc= 0  pre_alloc=1
+size=10248  alloc= 1  pre_alloc=0
+size=9336  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=13712  alloc= 0  pre_alloc=1
+size=13704  alloc= 1  pre_alloc=0
+size=12800  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=18320  alloc= 0  pre_alloc=1
+size=18312  alloc= 1  pre_alloc=0
+size=17416  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=24464  alloc= 0  pre_alloc=1
+size=24456  alloc= 1  pre_alloc=0
+size=23568  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=32392  alloc= 0  pre_alloc=1
+size=32520  alloc= 1  pre_alloc=0
+size=32024  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=43144  alloc= 0  pre_alloc=1
+size=43272  alloc= 1  pre_alloc=0
+size=43168  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=57736  alloc= 0  pre_alloc=1
+size=57864  alloc= 1  pre_alloc=0
+size=57384  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=76936  alloc= 0  pre_alloc=1
+size=77064  alloc= 1  pre_alloc=0
+size=76976  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=102800  alloc= 0  pre_alloc=1
+size=102792  alloc= 1  pre_alloc=0
+size=102712  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=137360  alloc= 0  pre_alloc=1
+size=137352  alloc= 1  pre_alloc=0
+size=136512  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=182920  alloc= 0  pre_alloc=1
+size=183048  alloc= 1  pre_alloc=0
+size=182600  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=244112  alloc= 0  pre_alloc=1
+size=244104  alloc= 1  pre_alloc=0
+size=243664  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=325520  alloc= 0  pre_alloc=1
+size=325512  alloc= 1  pre_alloc=0
+size=325080  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=434056  alloc= 0  pre_alloc=1
+size=434184  alloc= 1  pre_alloc=0
+size=433376  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=578960  alloc= 0  pre_alloc=1
+size=578952  alloc= 1  pre_alloc=0
+size=578152  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=0  alloc= 1  pre_alloc=1
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=1424  alloc= 0  pre_alloc=1
+size=1416  alloc= 1  pre_alloc=0
+size=1120  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=2960  alloc= 0  pre_alloc=1
+size=2952  alloc= 1  pre_alloc=0
+size=2144  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=3976  alloc= 0  pre_alloc=1
+size=4104  alloc= 1  pre_alloc=0
+size=3936  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=5512  alloc= 0  pre_alloc=1
+size=5640  alloc= 1  pre_alloc=0
+size=5096  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=7568  alloc= 0  pre_alloc=1
+size=7560  alloc= 1  pre_alloc=0
+size=7024  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=10120  alloc= 0  pre_alloc=1
+size=10248  alloc= 1  pre_alloc=0
+size=9336  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=13712  alloc= 0  pre_alloc=1
+size=13704  alloc= 1  pre_alloc=0
+size=12800  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=18320  alloc= 0  pre_alloc=1
+size=18312  alloc= 1  pre_alloc=0
+size=17416  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=24464  alloc= 0  pre_alloc=1
+size=24456  alloc= 1  pre_alloc=0
+size=23568  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=32392  alloc= 0  pre_alloc=1
+size=32520  alloc= 1  pre_alloc=0
+size=32024  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=43144  alloc= 0  pre_alloc=1
+size=43272  alloc= 1  pre_alloc=0
+size=43168  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=57736  alloc= 0  pre_alloc=1
+size=57864  alloc= 1  pre_alloc=0
+size=57384  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=76936  alloc= 0  pre_alloc=1
+size=77064  alloc= 1  pre_alloc=0
+size=76976  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=102800  alloc= 0  pre_alloc=1
+size=102792  alloc= 1  pre_alloc=0
+size=102712  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=137360  alloc= 0  pre_alloc=1
+size=137352  alloc= 1  pre_alloc=0
+size=136512  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=182920  alloc= 0  pre_alloc=1
+size=183048  alloc= 1  pre_alloc=0
+size=182600  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=244112  alloc= 0  pre_alloc=1
+size=244104  alloc= 1  pre_alloc=0
+size=243664  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=325520  alloc= 0  pre_alloc=1
+size=325512  alloc= 1  pre_alloc=0
+size=325080  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=434056  alloc= 0  pre_alloc=1
+size=434184  alloc= 1  pre_alloc=0
+size=433376  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=578960  alloc= 0  pre_alloc=1
+size=578952  alloc= 1  pre_alloc=0
+size=578152  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=0  alloc= 1  pre_alloc=1
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=1424  alloc= 0  pre_alloc=1
+size=1416  alloc= 1  pre_alloc=0
+size=1120  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=2960  alloc= 0  pre_alloc=1
+size=2952  alloc= 1  pre_alloc=0
+size=2144  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=3976  alloc= 0  pre_alloc=1
+size=4104  alloc= 1  pre_alloc=0
+size=3936  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=5512  alloc= 0  pre_alloc=1
+size=5640  alloc= 1  pre_alloc=0
+size=5096  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=7568  alloc= 0  pre_alloc=1
+size=7560  alloc= 1  pre_alloc=0
+size=7024  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=10120  alloc= 0  pre_alloc=1
+size=10248  alloc= 1  pre_alloc=0
+size=9336  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=13712  alloc= 0  pre_alloc=1
+size=13704  alloc= 1  pre_alloc=0
+size=12800  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=18320  alloc= 0  pre_alloc=1
+size=18312  alloc= 1  pre_alloc=0
+size=17416  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=24464  alloc= 0  pre_alloc=1
+size=24456  alloc= 1  pre_alloc=0
+size=23568  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=32392  alloc= 0  pre_alloc=1
+size=32520  alloc= 1  pre_alloc=0
+size=32024  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=43144  alloc= 0  pre_alloc=1
+size=43272  alloc= 1  pre_alloc=0
+size=43168  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=57736  alloc= 0  pre_alloc=1
+size=57864  alloc= 1  pre_alloc=0
+size=57384  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=76936  alloc= 0  pre_alloc=1
+size=77064  alloc= 1  pre_alloc=0
+size=76976  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=102800  alloc= 0  pre_alloc=1
+size=102792  alloc= 1  pre_alloc=0
+size=102712  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=137360  alloc= 0  pre_alloc=1
+size=137352  alloc= 1  pre_alloc=0
+size=136512  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=182920  alloc= 0  pre_alloc=1
+size=183048  alloc= 1  pre_alloc=0
+size=182600  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=244112  alloc= 0  pre_alloc=1
+size=244104  alloc= 1  pre_alloc=0
+size=243664  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=325520  alloc= 0  pre_alloc=1
+size=325512  alloc= 1  pre_alloc=0
+size=325080  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 0  pre_alloc=1
+size=136  alloc= 1  pre_alloc=0
+size=434056  alloc= 0  pre_alloc=1
+size=434184  alloc= 1  pre_alloc=0
+size=433376  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+size=136  alloc= 1  pre_alloc=1
+size=578960  alloc= 0  pre_alloc=1
+size=578952  alloc= 1  pre_alloc=0
+size=578152  alloc= 0  pre_alloc=1
+size=0  alloc= 1  pre_alloc=0
+-------------------------------
+Perf index = 16 (util) + 12 (thru) = 28/100
